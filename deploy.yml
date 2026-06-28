@@ -1,0 +1,7 @@
+---
+  - hosts: localhost
+    tasks: 
+    - name: Copy JAR file
+      copy:
+        src: target/pg8-1.0-SNAPSHOT.jar
+        dest: /home/shabarish/pg8-1.0-SNAPSHOT.jar
